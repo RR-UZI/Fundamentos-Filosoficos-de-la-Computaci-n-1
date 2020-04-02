@@ -31,7 +31,7 @@ tecla_rectangulo = 'r'
 posicion_figura = [
      [0, 18], #Triangulo 
      [15, 18], #Cuadrado 
-     [45,18] #Corazon
+     [45,18] #Rectangulo
     ]
 
 class _Getch:
