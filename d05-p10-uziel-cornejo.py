@@ -35,8 +35,7 @@ posicion_figura = [
     ]
 
 class _Getch:
-    """Gets a single character from standard input.  Does not echo to the
-screen."""
+    
     def __init__(self):
         try:
             self.impl = _GetchWindows()
@@ -178,7 +177,7 @@ def inicializa_figuras():
 def main(): 
     ## Tecla c = Cuadrado 
     ## Tecla t = triangulo 
-    ## Tecla t = Corazon 
+    ## Tecla t = Rectangulo 
     ## Color de la figura seleccionada = verde 
     figura_seleccionada = cuadrado
     borrarPantalla()
